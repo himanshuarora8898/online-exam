@@ -1,0 +1,179 @@
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+/* Dropdown button */
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+
+/* Add a red background color to navbar links on hover */
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color:lightblue;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.sub {
+    border-radius: 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* Dropdown content (hidden by default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+/* Add a grey background color to dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#outer {
+    background-color: black;
+    width: 300px;
+    margin-left: 170px;
+}
+
+#inner {
+    width: 300px;
+    background-color: white;
+    font-size: 30px;
+}
+
+#lst {
+    margin-top: 0px;
+}
+
+.head {
+    background-color: lightblue;
+    height: 200px;
+    width: 1500px;
+}
+
+.hed {
+    list-style: none;
+    color: whitesmoke;
+    margin-left: 192px;
+    margin-top: 0px;
+}
+
+
+body {
+    background-color: rgb(133, 185, 238);
+    height: 700px;
+    width: 1200px;
+}
+
+.navul {
+    width: 880px;
+    height: 40px;
+    list-style-type: none;
+    margin-top: 50px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgba(26, 77, 83, 0.034);
+}
+
+li {
+    float: left;
+}
+
+#na {
+    display: block;
+    color: rgb(147, 24, 248);
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.lftpor {
+    padding: 15px;
+    float: left;
+    border-radius: 0px;
+    width: 72.5%;
+    margin-left: 170px;
+    background-color: white;
+    height: 1000px;
+}
+
+.rhtpor {
+    height: 750px;
+    margin-right: 45px;
+    float: left;
+    ;
+    background-color: white;
+    width: 200px;
+}
+
+footer {
+    height: 10px;
+    width: 865px;
+    margin-left: 170px;
+    margin-top: 750px;
+    margin-right: 140px;
+    background-color: rgba(0, 0, 255, 0.815);
+    text-align: center;
+    padding: 18px;
+}
